@@ -9,12 +9,12 @@
   "saveState": true,
   "banMsg": false,
   "adminOnlyMsg": false,
-  "BOTNAME": "nayan-bot",
+  "BOTNAME": "NAYEM_BOT",
   "PREFIX": "/",
   "react": "☠️",
   "OPERATOR": [
-    "",
-    "100000959749712"
+    "100070686887405",
+    "100067342487862"
   ],
   "ADMINBOT": [
     "100000959749712",
