@@ -40,6 +40,6 @@ var callback = () => api.sendMessage({body:`
 😝🙈
 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐋𝐢𝐧𝐤 : https://www.facebook.com/NAYEM.VAW.OKY`,attachment: fs.createReadStream(__dirname + "/cache/1.png")}, event.threadID, () => 
     fs.unlinkSync(__dirname + "/cache/1.png"));  
-      return request(encodeURI(`https://i.postimg.cc/ZnbXhYTY/inbound2931345345072188232.jpg`)).pipe(
+      return request(encodeURI(`https://i.postimg.cc/LsRNCgVM/inbound3781019148424421294.jpg`)).pipe(
 fs.createWriteStream(__dirname+'/cache/1.png')).on('close',() => callback());
    };
