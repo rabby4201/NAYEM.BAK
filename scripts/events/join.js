@@ -176,7 +176,7 @@ https://www.facebook.com/JAMAI.MR.TOM
         abx.push(fs.createReadStream(__dirname + `/Nayan/join/${o}.png`))
       }
       memLength.sort((a, b) => a - b);
-      (typeof threadData.customJoin == "undefined") ? msg = `❤︎𝐇𝐄𝐋𝐋𝐎☀︎︎ 𝐃𝐄𝐀𝐑❤︎......!!\n 𝐈 𝐀𝐦 𝐍𝐚𝐲𝐞𝐦~𝐁𝐨𝐭 😘 {name}\nWelcome 𝐧𝐚𝐲𝐞𝐦 𝐛𝐨𝐬𝐬 এর পক্ষে থেকে to {threadName}\nyou're the {soThanhVien}th member on this group please enjoy"\n─────────────────\n[ {time} - {thu} ]` : msg = threadData.customJoin;
+      (typeof threadData.customJoin == "undefined") ? msg = `❤︎𝐇𝐄𝐋𝐋𝐎☀︎︎ 𝐃𝐄𝐀𝐑❤︎......!!\n 𝐈 𝐀𝐦 𝐍𝐀𝐘𝐄𝐌-𝐁𝐎𝐓😘 {name}\nWelcome সবার এর পক্ষে থেকে\n\n 𝐍𝐀𝐘𝐄𝐌 𝐁𝐎𝐒𝐒 𝐀𝐫 থেকে 𝐈 𝐥𝐨𝐯𝐞 𝐲𝐨𝐮😘🪽\n\n to {threadName}\nyou're the {soThanhVien}th member on this group please enjoy"\n─────────────────\n[ {time} - {thu} ]` : msg = threadData.customJoin;
       var nameAuthor = await Users.getNameUser(event.author)
       msg = msg
         .replace(/\{iduser}/g, iduser.join(', '))
