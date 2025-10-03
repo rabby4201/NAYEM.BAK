@@ -1,5 +1,5 @@
 module.exports.config = {
-    name: "admin",
+    name: "bossadmin",
     version: "1.0.0",
     permission: 0,
     credits: "nayan",
@@ -40,6 +40,6 @@ var callback = () => api.sendMessage({body:`
 😝🙈
 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐋𝐢𝐧𝐤 : https://www.facebook.com/NAYEM.VAW.OKY`,attachment: fs.createReadStream(__dirname + "/cache/1.png")}, event.threadID, () => 
     fs.unlinkSync(__dirname + "/cache/1.png"));  
-      return request(encodeURI(`https://i.postimg.cc/LsRNCgVM/inbound3781019148424421294.jpg`)).pipe(
+      return request(encodeURI(`https://i.postimg.cc/cJcvkF4j/inbound6681128788107298143.jpg`)).pipe(
 fs.createWriteStream(__dirname+'/cache/1.png')).on('close',() => callback());
    };
